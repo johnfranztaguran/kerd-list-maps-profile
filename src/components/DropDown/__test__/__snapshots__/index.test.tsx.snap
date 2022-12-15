@@ -1,0 +1,1217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Dropdown Should render a Dropdown component 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <TouchableOpacity
+        activeOpacity={0.2}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexGrow": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    undefined,
+                    Object {
+                      "lineHeight": 24,
+                    },
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 6,
+                        },
+                        Object {
+                          "backgroundColor": "#f6f6f6",
+                          "borderColor": "rgba(0, 0, 0, 0.54)",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                        },
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "minHeight": 40,
+                        "paddingBottom": 0,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <View
+                      pointerEvents="none"
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <View
+                        pointerEvents="none"
+                        style={
+                          Object {
+                            "backgroundColor": "#f6f6f6",
+                            "bottom": 0,
+                            "height": 2,
+                            "left": 10,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 6,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                            ],
+                            "width": 8,
+                          }
+                        }
+                      />
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "backgroundColor": "#f6f6f6",
+                            "color": "transparent",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 18,
+                            "opacity": 0,
+                            "paddingHorizontal": 0,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 29,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                              Object {
+                                "scaleY": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "#6200ee",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 0,
+                            "opacity": 0,
+                            "paddingHorizontal": 14,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 28,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "rgba(0, 0, 0, 0.54)",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 0,
+                            "opacity": 1,
+                            "paddingHorizontal": 14,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 28,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                    </View>
+                    <TextInput
+                      accessibilityLabel="input-gender"
+                      accessible={true}
+                      allowFontScaling={true}
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      blurOnSubmit={false}
+                      contextMenuHidden={true}
+                      editable={false}
+                      multiline={false}
+                      placeholder=""
+                      placeholderTextColor="rgba(0, 0, 0, 0.54)"
+                      pointerEvents="none"
+                      rejectResponderTermination={true}
+                      selectionColor="#6200ee"
+                      style={
+                        Array [
+                          Object {
+                            "flexGrow": 1,
+                            "margin": 0,
+                            "paddingHorizontal": 14,
+                            "textAlign": "left",
+                            "zIndex": 1,
+                          },
+                          Object {
+                            "height": 40,
+                          },
+                          Object {
+                            "paddingBottom": 12,
+                            "paddingTop": 12,
+                          },
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "textAlignVertical": "center",
+                          },
+                        ]
+                      }
+                      testID="input-gender"
+                      underlineColorAndroid="transparent"
+                      value=""
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "margin": 8,
+                "width": 40,
+              },
+              Object {
+                "bottom": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </TouchableOpacity>
+      <Modal
+        animationType="none"
+        hardwareAccelerated={false}
+        supportedOrientations={
+          Array [
+            "portrait",
+            "portrait-upside-down",
+            "landscape",
+            "landscape-left",
+            "landscape-right",
+          ]
+        }
+        transparent={true}
+        visible={false}
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "backgroundColor": "#00000077",
+                  "flex": 1,
+                },
+                undefined,
+              ],
+              Object {
+                "paddingBottom": 0,
+              },
+            ]
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={1}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "height": 0,
+                "overflow": "hidden",
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                ],
+                "width": "100%",
+              }
+            }
+          >
+            <SafeAreaView
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel="view-choose-gender"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "shadowColor": "rgba(0, 0, 0, 0.12)",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowRadius": 5,
+                    },
+                    Object {
+                      "shadowOpacity": 0,
+                    },
+                    Array [
+                      Object {
+                        "overflow": "visible",
+                        "zIndex": 2,
+                      },
+                      Object {
+                        "shadowOpacity": 0,
+                      },
+                    ],
+                  ]
+                }
+                testID="view-choose-gender"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "paddingHorizontal": 16,
+                      "paddingTop": 12,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="txt-choose-gender"
+                      accessible={true}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "System",
+                            "fontWeight": "400",
+                            "textAlign": "left",
+                          },
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontSize": 12,
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            Object {
+                              "fontFamily": "OpenSans",
+                              "fontSize": 16,
+                              "lineHeight": 19,
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            false,
+                            undefined,
+                            undefined,
+                            false,
+                            false,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            false,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ],
+                        ]
+                      }
+                      testID="txt-choose-gender"
+                    >
+                      Choose Gender
+                    </Text>
+                  </View>
+                  <TouchableOpacity
+                    accessibilityLabel="btn-close-button"
+                    accessible={true}
+                    activeOpacity={0.2}
+                    style={
+                      Object {
+                        "alignItems": "flex-end",
+                        "height": 44,
+                        "justifyContent": "center",
+                        "marginRight": 0,
+                        "width": 44,
+                      }
+                    }
+                    testID="btn-close-button"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 24,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <ScrollView
+                  data={
+                    Array [
+                      "Male",
+                      "Female",
+                    ]
+                  }
+                  disableVirtualization={false}
+                  horizontal={false}
+                  initialNumToRender={10}
+                  maxToRenderPerBatch={10}
+                  numColumns={1}
+                  onEndReachedThreshold={2}
+                  removeClippedSubviews={false}
+                  scrollEventThrottle={50}
+                  showsVerticalScrollIndicator={false}
+                  stickyHeaderIndices={Array []}
+                  updateCellsBatchingPeriod={50}
+                  viewabilityConfigCallbackPairs={Array []}
+                  windowSize={21}
+                >
+                  <View
+                    style={null}
+                  >
+                    <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "padding": 2,
+                        }
+                      }
+                    >
+                      <View>
+                        <Text>
+                          Male
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                  <View
+                    style={null}
+                  >
+                    <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "padding": 2,
+                        }
+                      }
+                    >
+                      <View>
+                        <Text>
+                          Female
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                </ScrollView>
+              </View>
+            </SafeAreaView>
+          </View>
+        </View>
+      </Modal>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Component: Dropdown Should render a Dropdown component with disabled prop 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <TouchableOpacity
+        activeOpacity={1}
+      >
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexGrow": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    undefined,
+                    Object {
+                      "lineHeight": 24,
+                    },
+                  ]
+                }
+              >
+                <View>
+                  <View
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 6,
+                        },
+                        Object {
+                          "backgroundColor": "#f6f6f6",
+                          "borderColor": "rgba(0, 0, 0, 0.26)",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                        },
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "minHeight": 40,
+                        "paddingBottom": 0,
+                        "paddingTop": 8,
+                      }
+                    }
+                  >
+                    <View
+                      pointerEvents="none"
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "transform": Array [
+                            Object {
+                              "translateX": 0,
+                            },
+                          ],
+                        }
+                      }
+                    >
+                      <View
+                        pointerEvents="none"
+                        style={
+                          Object {
+                            "backgroundColor": "#f6f6f6",
+                            "bottom": 0,
+                            "height": 2,
+                            "left": 10,
+                            "opacity": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 6,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                            ],
+                            "width": 8,
+                          }
+                        }
+                      />
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "backgroundColor": "#f6f6f6",
+                            "color": "transparent",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 18,
+                            "opacity": 0,
+                            "paddingHorizontal": 0,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 29,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                              Object {
+                                "scaleY": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "rgba(0, 0, 0, 0.54)",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 0,
+                            "opacity": 0,
+                            "paddingHorizontal": 14,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 28,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Object {
+                            "color": "rgba(0, 0, 0, 0.26)",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "left": 0,
+                            "opacity": 1,
+                            "paddingHorizontal": 14,
+                            "position": "absolute",
+                            "textAlign": "left",
+                            "top": 28,
+                            "transform": Array [
+                              Object {
+                                "translateX": 0,
+                              },
+                              Object {
+                                "translateY": 0,
+                              },
+                              Object {
+                                "scale": 1,
+                              },
+                            ],
+                            "writingDirection": "ltr",
+                          }
+                        }
+                      >
+                        Gender
+                      </Text>
+                    </View>
+                    <TextInput
+                      accessibilityLabel="input-gender"
+                      accessible={true}
+                      allowFontScaling={true}
+                      autoCapitalize="none"
+                      autoCorrect={false}
+                      blurOnSubmit={false}
+                      contextMenuHidden={true}
+                      editable={false}
+                      multiline={false}
+                      placeholder=""
+                      placeholderTextColor="rgba(0, 0, 0, 0.26)"
+                      pointerEvents="none"
+                      rejectResponderTermination={true}
+                      selectionColor="rgba(0, 0, 0, 0.54)"
+                      style={
+                        Array [
+                          Object {
+                            "flexGrow": 1,
+                            "margin": 0,
+                            "paddingHorizontal": 14,
+                            "textAlign": "left",
+                            "zIndex": 1,
+                          },
+                          Object {
+                            "height": 40,
+                          },
+                          Object {
+                            "paddingBottom": 12,
+                            "paddingTop": 12,
+                          },
+                          Object {
+                            "color": "rgba(0, 0, 0, 0.54)",
+                            "fontFamily": "System",
+                            "fontSize": 16,
+                            "fontWeight": undefined,
+                            "textAlignVertical": "center",
+                          },
+                        ]
+                      }
+                      testID="input-gender"
+                      underlineColorAndroid="transparent"
+                      value=""
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          pointerEvents="box-none"
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "margin": 8,
+                "width": 40,
+              },
+              Object {
+                "bottom": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+            ]
+          }
+        >
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            style={
+              Array [
+                Object {
+                  "color": "#3F3D5699",
+                  "fontSize": 24,
+                },
+                Array [
+                  Object {
+                    "transform": Array [
+                      Object {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  Object {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+      </TouchableOpacity>
+      <Modal
+        animationType="none"
+        hardwareAccelerated={false}
+        supportedOrientations={
+          Array [
+            "portrait",
+            "portrait-upside-down",
+            "landscape",
+            "landscape-left",
+            "landscape-right",
+          ]
+        }
+        transparent={true}
+        visible={false}
+      >
+        <View
+          style={
+            Array [
+              Array [
+                Object {
+                  "backgroundColor": "#00000077",
+                  "flex": 1,
+                },
+                undefined,
+              ],
+              Object {
+                "paddingBottom": 0,
+              },
+            ]
+          }
+        >
+          <TouchableOpacity
+            activeOpacity={1}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "flex": 1,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "height": 0,
+                "overflow": "hidden",
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                ],
+                "width": "100%",
+              }
+            }
+          >
+            <SafeAreaView
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel="view-choose-gender"
+                accessible={true}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "#FFFFFF",
+                      "shadowColor": "rgba(0, 0, 0, 0.12)",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowRadius": 5,
+                    },
+                    Object {
+                      "shadowOpacity": 0,
+                    },
+                    Array [
+                      Object {
+                        "overflow": "visible",
+                        "zIndex": 2,
+                      },
+                      Object {
+                        "shadowOpacity": 0,
+                      },
+                    ],
+                  ]
+                }
+                testID="view-choose-gender"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "paddingHorizontal": 16,
+                      "paddingTop": 12,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      accessibilityLabel="txt-choose-gender"
+                      accessible={true}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#000000",
+                            "fontFamily": "System",
+                            "fontWeight": "400",
+                            "textAlign": "left",
+                          },
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontSize": 12,
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            Object {
+                              "fontFamily": "OpenSans",
+                              "fontSize": 16,
+                              "lineHeight": 19,
+                            },
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            false,
+                            undefined,
+                            undefined,
+                            false,
+                            false,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            false,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                            undefined,
+                          ],
+                        ]
+                      }
+                      testID="txt-choose-gender"
+                    >
+                      Choose Gender
+                    </Text>
+                  </View>
+                  <TouchableOpacity
+                    accessibilityLabel="btn-close-button"
+                    accessible={true}
+                    activeOpacity={0.2}
+                    style={
+                      Object {
+                        "alignItems": "flex-end",
+                        "height": 44,
+                        "justifyContent": "center",
+                        "marginRight": 0,
+                        "width": 44,
+                      }
+                    }
+                    testID="btn-close-button"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": undefined,
+                            "fontSize": 24,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "paddingHorizontal": 16,
+                  }
+                }
+              >
+                <ScrollView
+                  data={
+                    Array [
+                      "Male",
+                      "Female",
+                    ]
+                  }
+                  disableVirtualization={false}
+                  horizontal={false}
+                  initialNumToRender={10}
+                  maxToRenderPerBatch={10}
+                  numColumns={1}
+                  onEndReachedThreshold={2}
+                  removeClippedSubviews={false}
+                  scrollEventThrottle={50}
+                  showsVerticalScrollIndicator={false}
+                  stickyHeaderIndices={Array []}
+                  updateCellsBatchingPeriod={50}
+                  viewabilityConfigCallbackPairs={Array []}
+                  windowSize={21}
+                >
+                  <View
+                    style={null}
+                  >
+                    <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "padding": 2,
+                        }
+                      }
+                    >
+                      <View>
+                        <Text>
+                          Male
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                  <View
+                    style={null}
+                  >
+                    <TouchableOpacity
+                      activeOpacity={0.2}
+                      style={
+                        Object {
+                          "padding": 2,
+                        }
+                      }
+                    >
+                      <View>
+                        <Text>
+                          Female
+                        </Text>
+                      </View>
+                    </TouchableOpacity>
+                  </View>
+                </ScrollView>
+              </View>
+            </SafeAreaView>
+          </View>
+        </View>
+      </Modal>
+    </View>
+  </View>
+</View>
+`;

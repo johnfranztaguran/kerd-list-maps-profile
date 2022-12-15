@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Loader renders correctly 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Modal
+      animationType="none"
+      hardwareAccelerated={false}
+      transparent={true}
+      visible={true}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF80",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <ActivityIndicator
+          accessibilityLabel="view-loader"
+          accessible={true}
+          animating={true}
+          color="#38647F"
+          hidesWhenStopped={true}
+          size="large"
+          testID="view-loader"
+        />
+      </View>
+    </Modal>
+  </View>
+</View>
+`;

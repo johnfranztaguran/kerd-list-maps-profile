@@ -1,0 +1,103 @@
+{
+  "categories": [
+    {
+      "id": 3,
+      "name": "Cookies",
+      "photo_url": "https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imw'id'th=1400"
+    },
+    {
+      "id": 1,
+      "name": "Mexican Food",
+      "photo_url": "https://ak1.picdn.net/shutterstock/v'id'eos/19498861/thumb/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Italian Food",
+      "photo_url": "https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ix'id'=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Smoothies",
+      "photo_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*"
+    },
+    {
+      "id": 0,
+      "name": "Pizza",
+      "photo_url": "https://amp.businessins'id'er.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg"
+    }
+  ],
+  "recipes": [
+    {
+      "uuid": 122,
+      "categoryId": 3,
+      "title": "Oatmeal Cookies",
+      "photo_url": "https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg"
+    },
+    {
+      "uuid": 69,
+      "categoryId": 4,
+      "title": "Triple Berry Smoothie",
+      "photo_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*"
+    },
+    {
+      "uuid": 2,
+      "categoryId": 3,
+      "title": "Vegan Cookies",
+      "photo_url": "https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg"
+    },
+    {
+      "uuid": 3,
+      "categoryId": 3,
+      "title": "Pumpkin Spice Cookies",
+      "photo_url": "https://www.texanerin.com/content/uploads/2018/11/pumpkin-spice-cookies-4-650x975.jpg"
+    },
+    {
+      "uuid": 1,
+      "categoryId": 3,
+      "title": "Brownies",
+      "photo_url": "https://www.texanerin.com/content/uploads/2018/01/coconut-flour-brownies-1-650x975.jpg"
+    },
+    {
+      "uuid": 4,
+      "categoryId": 1,
+      "title": "Perfect Fish Tacos",
+      "photo_url": "https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg"
+    },
+    {
+      "uuid": 5,
+      "categoryId": 1,
+      "title": "hicken Fajitas",
+      "photo_url": "https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg"
+    },
+    {
+      "uuid": 6,
+      "categoryId": 2,
+      "title": "Buffalo Pizza",
+      "photo_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+    },
+    {
+      "uuid": 0,
+      "categoryId": 0,
+      "title": "Classic Lasagna",
+      "photo_url": "https://www.texanerin.com/content/uploads/2017/02/classisc-homemade-lasagna-1-650x975.jpg"
+    },
+    {
+      "uuid": 7,
+      "categoryId": 2,
+      "title": "Spaghetti Carbonara",
+      "photo_url": "https://www.texanerin.com/content/uploads/2012/08/raspberry-white-chocolate-truffles-1-650x871.jpg"
+    },
+    {
+      "uuid": 8,
+      "categoryId": 2,
+      "title": "Lazania",
+      "photo_url": "https://www.texanerin.com/content/uploads/2017/02/classisc-homemade-lasagna-1-650x975.jpg"
+    },
+    {
+      "uuid": 158,
+      "categoryId": 3,
+      "title": "Test Mealsss",
+      "photo_url": "https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg"
+    }
+  ]
+}

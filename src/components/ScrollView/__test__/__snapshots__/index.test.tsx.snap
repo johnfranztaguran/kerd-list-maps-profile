@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ScrollView Should render a <ScrollView /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <ScrollView
+      accessibilityLabel="scrollview--screen"
+      accessible={true}
+      scrollEventThrottle={200}
+      testID="scrollview--screen"
+    >
+      <Text>
+        Child Element
+      </Text>
+    </ScrollView>
+  </View>
+</View>
+`;

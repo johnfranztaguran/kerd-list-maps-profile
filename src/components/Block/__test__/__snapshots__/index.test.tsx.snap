@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Block Should render a <Block> with a chilren centered 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {},
+          false,
+          undefined,
+          undefined,
+          Object {
+            "alignItems": "center",
+          },
+          Object {
+            "justifyContent": "center",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          false,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text>
+        Test
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Component: Block Should render a <Block> with no children 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {},
+          false,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          false,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          false,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    />
+  </View>
+</View>
+`;

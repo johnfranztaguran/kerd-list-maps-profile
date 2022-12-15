@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Text Should render a <Body /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="txt-test-body"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "fontFamily": "OpenSans",
+              "fontSize": 14,
+              "lineHeight": 16,
+            },
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            false,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="txt-test-body"
+    >
+      Test body
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Component: Text Should render a <Caption /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="txt-test-caption"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "fontFamily": "OpenSans",
+              "fontSize": 10,
+              "lineHeight": 12,
+            },
+            undefined,
+            false,
+            undefined,
+            undefined,
+            false,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="txt-test-caption"
+    >
+      Test caption
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Component: Text Should render a <Headline1 /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="txt-test-h1"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            },
+            Object {
+              "fontFamily": "OpenSans",
+              "fontSize": 24,
+              "lineHeight": 28,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            false,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="txt-test-h1"
+    >
+      Test h1
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Component: Text Should render a <Label /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="txt-test-label"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "fontFamily": "OpenSans",
+              "fontSize": 8,
+              "lineHeight": 9,
+            },
+            false,
+            undefined,
+            undefined,
+            false,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="txt-test-label"
+    >
+      Test label
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Component: Text Should render a <Subtitle /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="txt-test-subtitle"
+      accessible={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+          },
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 12,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "fontFamily": "OpenSans",
+              "fontSize": 12,
+              "lineHeight": 14,
+            },
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            false,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            false,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+      testID="txt-test-subtitle"
+    >
+      Test subtitle
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Header Should render a <Header /> 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="view--header-main-container"
+      accessible={true}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "#38647F",
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 20,
+        }
+      }
+      testID="view--header-main-container"
+    >
+      <View
+        accessibilityLabel="view--statusbar-container"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#38647F",
+              "height": 0,
+            },
+          ]
+        }
+        testID="view--statusbar-container"
+      />
+      <View
+        accessibilityLabel="view--navigation-container"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-evenly",
+              "marginBottom": 8,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 8,
+            },
+          ]
+        }
+        testID="view--navigation-container"
+      >
+        <View
+          accessibilityLabel="view--header-left-container"
+          accessible={true}
+          style={
+            Object {
+              "left": 0,
+              "position": "absolute",
+            }
+          }
+          testID="view--header-left-container"
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": 24,
+                  "marginRight": 24,
+                  "marginTop": 24,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "simple-line-icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+        <View
+          accessibilityLabel="view--header-title-container"
+          accessible={true}
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginHorizontal": 50,
+            }
+          }
+          testID="view--header-title-container"
+        >
+          <Text
+            accessibilityLabel="txt-test-title"
+            accessible={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                  "textAlign": "left",
+                },
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "fontFamily": "OpenSans",
+                    "fontSize": 18,
+                    "lineHeight": 21,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  false,
+                  undefined,
+                  undefined,
+                  false,
+                  false,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  false,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID="txt-test-title"
+          >
+            Test Title
+          </Text>
+        </View>
+        <View
+          accessibilityLabel="view--header-right-container"
+          accessible={true}
+          style={
+            Object {
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+          testID="view--header-right-container"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Component: Header Should render a <Header /> with background color and right component 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="view--header-main-container"
+      accessible={true}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "backgroundColor": "red",
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 20,
+        }
+      }
+      testID="view--header-main-container"
+    >
+      <View
+        accessibilityLabel="view--statusbar-container"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "red",
+              "height": 0,
+            },
+          ]
+        }
+        testID="view--statusbar-container"
+      />
+      <View
+        accessibilityLabel="view--navigation-container"
+        accessible={true}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "row",
+              "height": 50,
+              "justifyContent": "space-evenly",
+              "marginBottom": 8,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 8,
+            },
+          ]
+        }
+        testID="view--navigation-container"
+      >
+        <View
+          accessibilityLabel="view--header-left-container"
+          accessible={true}
+          style={
+            Object {
+              "left": 0,
+              "position": "absolute",
+            }
+          }
+          testID="view--header-left-container"
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": 24,
+                  "marginRight": 24,
+                  "marginTop": 24,
+                }
+              }
+            >
+              <Text
+                allowFontScaling={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 20,
+                    },
+                    undefined,
+                    Object {
+                      "fontFamily": "simple-line-icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+        <View
+          accessibilityLabel="view--header-title-container"
+          accessible={true}
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginHorizontal": 50,
+            }
+          }
+          testID="view--header-title-container"
+        >
+          <Text
+            accessibilityLabel="txt-test-title"
+            accessible={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                  "textAlign": "left",
+                },
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 12,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "fontFamily": "OpenSans",
+                    "fontSize": 18,
+                    "lineHeight": 21,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  false,
+                  undefined,
+                  undefined,
+                  false,
+                  false,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "fontWeight": "500",
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  false,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID="txt-test-title"
+          >
+            Test Title
+          </Text>
+        </View>
+        <View
+          accessibilityLabel="view--header-right-container"
+          accessible={true}
+          style={
+            Object {
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+          testID="view--header-right-container"
+        >
+          <Text>
+            Edit
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

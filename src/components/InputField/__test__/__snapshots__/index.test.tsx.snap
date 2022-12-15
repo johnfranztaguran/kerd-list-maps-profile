@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: InputField Should render a InputField 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View>
+              <View
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 6,
+                    },
+                    Object {
+                      "backgroundColor": "#f6f6f6",
+                      "borderColor": "rgba(0, 0, 0, 0.54)",
+                      "borderRadius": 4,
+                      "borderWidth": 1,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "minHeight": 40,
+                    "paddingBottom": 0,
+                    "paddingTop": 8,
+                  }
+                }
+              >
+                <TextInput
+                  accessibilityLabel="input-undefined"
+                  accessible={true}
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  editable={true}
+                  multiline={false}
+                  placeholderTextColor="rgba(0, 0, 0, 0.54)"
+                  rejectResponderTermination={true}
+                  selectionColor="#6200ee"
+                  style={
+                    Array [
+                      Object {
+                        "flexGrow": 1,
+                        "margin": 0,
+                        "paddingHorizontal": 14,
+                        "textAlign": "left",
+                        "zIndex": 1,
+                      },
+                      Object {
+                        "height": 40,
+                      },
+                      Object {
+                        "paddingBottom": 12,
+                        "paddingTop": 12,
+                      },
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": undefined,
+                        "textAlignVertical": "center",
+                      },
+                    ]
+                  }
+                  testID="input-undefined"
+                  underlineColorAndroid="transparent"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Component: InputField Should render a InputField with error message 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexGrow": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Array [
+                undefined,
+                Object {},
+              ]
+            }
+          >
+            <View>
+              <View
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 6,
+                    },
+                    Object {
+                      "backgroundColor": "#f6f6f6",
+                      "borderColor": "#B00020",
+                      "borderRadius": 4,
+                      "borderWidth": 2,
+                    },
+                  ]
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "minHeight": 40,
+                    "paddingBottom": 0,
+                    "paddingTop": 8,
+                  }
+                }
+              >
+                <TextInput
+                  accessibilityLabel="input-undefined"
+                  accessible={true}
+                  allowFontScaling={true}
+                  autoCapitalize="none"
+                  editable={true}
+                  multiline={false}
+                  placeholderTextColor="rgba(0, 0, 0, 0.54)"
+                  rejectResponderTermination={true}
+                  selectionColor="#B00020"
+                  style={
+                    Array [
+                      Object {
+                        "flexGrow": 1,
+                        "margin": 0,
+                        "paddingHorizontal": 14,
+                        "textAlign": "left",
+                        "zIndex": 1,
+                      },
+                      Object {
+                        "height": 40,
+                      },
+                      Object {
+                        "paddingBottom": 12,
+                        "paddingTop": 12,
+                      },
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": undefined,
+                        "textAlignVertical": "center",
+                      },
+                    ]
+                  }
+                  testID="input-undefined"
+                  underlineColorAndroid="transparent"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <Text
+        accessibilityLabel="txt--helpertext"
+        accessible={true}
+        style={
+          Object {
+            "color": "#B00020",
+            "fontFamily": "System",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "opacity": 1,
+            "paddingHorizontal": 12,
+            "paddingVertical": 4,
+            "textAlign": "left",
+            "transform": Array [
+              Object {
+                "translateY": -0,
+              },
+            ],
+            "writingDirection": "ltr",
+          }
+        }
+        testID="txt--helpertext"
+      >
+        Invalid input
+      </Text>
+    </View>
+  </View>
+</View>
+`;

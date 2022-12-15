@@ -1,0 +1,25 @@
+const colors = {
+  transparent: 'transparent',
+  matisse: '#38647F',
+  pigeonPost: '#9FBBD5',
+  gray1: '#091E42',
+  gray2: '#5E6C84',
+  gray3: '#F1F1F1',
+  gray4: '#F2F2F2',
+  white: '#FFFFFF',
+  solidWhite: '#FFFFFF',
+  solidWhite50: '#FFFFFF80',
+  black: '#000000',
+  grayishBlue: '#9BA5B5',
+  cinnabar: '#E74C3C',
+  java: '#17B2BF',
+  shadowBlack: 'rgba(0, 0, 0, 0.12)',
+  gunPowder: '#3F3D56',
+  gunPowder60: '#3F3D5699',
+  paleBlue: '#FAFBFC',
+  nevada: '#676A6C',
+  athensGray: '#F3F3F4',
+  tundora: '#444444',
+}
+
+export default colors

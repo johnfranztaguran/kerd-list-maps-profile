@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: TextInput Should render a TextInput 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <View>
+          <View
+            pointerEvents="none"
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 6,
+                },
+                Object {
+                  "backgroundColor": "#f6f6f6",
+                  "borderColor": "#6200ee",
+                  "borderRadius": 4,
+                  "borderWidth": 2,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "minHeight": 40,
+                "paddingBottom": 0,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <View
+              pointerEvents="none"
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "transform": Array [
+                    Object {
+                      "translateX": 0,
+                    },
+                  ],
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "backgroundColor": "#f6f6f6",
+                    "bottom": 0,
+                    "height": 2,
+                    "left": 10,
+                    "opacity": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 6,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                    "width": 8,
+                  }
+                }
+              />
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "backgroundColor": "#f6f6f6",
+                    "color": "transparent",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "left": 18,
+                    "opacity": 0,
+                    "paddingHorizontal": 0,
+                    "position": "absolute",
+                    "textAlign": "left",
+                    "top": 29,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateY": 0,
+                      },
+                      Object {
+                        "scale": 1,
+                      },
+                      Object {
+                        "scaleY": 1,
+                      },
+                    ],
+                    "writingDirection": "ltr",
+                  }
+                }
+              >
+                name
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#6200ee",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "left": 0,
+                    "opacity": 0,
+                    "paddingHorizontal": 14,
+                    "position": "absolute",
+                    "textAlign": "left",
+                    "top": 28,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateY": 0,
+                      },
+                      Object {
+                        "scale": 1,
+                      },
+                    ],
+                    "writingDirection": "ltr",
+                  }
+                }
+              >
+                name
+              </Text>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.54)",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "left": 0,
+                    "opacity": 1,
+                    "paddingHorizontal": 14,
+                    "position": "absolute",
+                    "textAlign": "left",
+                    "top": 28,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                      Object {
+                        "translateY": 0,
+                      },
+                      Object {
+                        "scale": 1,
+                      },
+                    ],
+                    "writingDirection": "ltr",
+                  }
+                }
+              >
+                name
+              </Text>
+            </View>
+            <TextInput
+              accessibilityLabel="input-name"
+              accessible={true}
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              placeholder=""
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              rejectResponderTermination={true}
+              secureTextEntry={false}
+              selectionColor="#17B2BF"
+              style={
+                Array [
+                  Object {
+                    "flexGrow": 1,
+                    "margin": 0,
+                    "paddingHorizontal": 14,
+                    "textAlign": "left",
+                    "zIndex": 1,
+                  },
+                  Object {
+                    "height": 40,
+                  },
+                  Object {
+                    "paddingBottom": 12,
+                    "paddingTop": 12,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "textAlignVertical": "center",
+                  },
+                ]
+              }
+              testID="input-name"
+              underlineColorAndroid="transparent"
+              value="test"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Component: TextInput Should render a TextInput with error message 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            undefined,
+            Object {},
+          ]
+        }
+      >
+        <View>
+          <View
+            pointerEvents="none"
+            style={
+              Array [
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 6,
+                },
+                Object {
+                  "backgroundColor": "#f6f6f6",
+                  "borderColor": "#B00020",
+                  "borderRadius": 4,
+                  "borderWidth": 2,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "minHeight": 40,
+                "paddingBottom": 0,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <TextInput
+              accessibilityLabel="input-undefined"
+              accessible={true}
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              rejectResponderTermination={true}
+              secureTextEntry={false}
+              selectionColor="#17B2BF"
+              style={
+                Array [
+                  Object {
+                    "flexGrow": 1,
+                    "margin": 0,
+                    "paddingHorizontal": 14,
+                    "textAlign": "left",
+                    "zIndex": 1,
+                  },
+                  Object {
+                    "height": 40,
+                  },
+                  Object {
+                    "paddingBottom": 12,
+                    "paddingTop": 12,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "textAlignVertical": "center",
+                  },
+                ]
+              }
+              testID="input-undefined"
+              underlineColorAndroid="transparent"
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginLeft": 16,
+              "marginRight": 16,
+            },
+            Object {},
+          ]
+        }
+      >
+        <TouchableOpacity
+          accessibilityLabel="txt--helpertext"
+          accessible={true}
+          activeOpacity={1}
+          testID="txt--helpertext"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignSelf": "stretch",
+                },
+                Object {
+                  "marginBottom": -10,
+                  "marginTop": -8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flexDirection": "row",
+                  "flexWrap": "wrap",
+                  "justifyContent": "flex-start",
+                  "marginBottom": 10,
+                  "marginTop": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#E74C3C",
+                    "fontFamily": "OpenSans",
+                    "fontSize": 10,
+                    "lineHeight": 12,
+                  }
+                }
+              >
+                Please enter your email address.
+              </Text>
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </View>
+  </View>
+</View>
+`;

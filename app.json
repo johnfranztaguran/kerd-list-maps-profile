@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "userCrudMaps",
+    "slug": "userCrudMaps",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "userCrudMaps"
+}
