@@ -6,10 +6,21 @@ require 'json'
 podfile_properties = JSON.parse(File.read(File.join(__dir__, 'Podfile.properties.json'))) rescue {}
 
 platform :ios, podfile_properties['ios.deploymentTarget'] || '13.0'
+# platform :ios, '13.0'
 install! 'cocoapods',
   :deterministic_uuids => false
 
 target 'userCrudMaps' do
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+  pod 'GoogleMaps'
+  pod 'Google-Maps-iOS-Utils'
+  pod 'react-native-google-places', :path => '../node_modules/react-native-google-places'
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
+
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
   pod 'Firebase', :modular_headers => true
   pod 'FirebaseCoreInternal', :modular_headers => true

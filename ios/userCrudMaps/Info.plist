@@ -81,5 +81,11 @@
 	<false/>
   <key>UIStatusBarStyle</key>
   <string>UIStatusBarStyleDefault</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>Application uses location to find gyms around you.</string>
+  <key>NSLocationAlwaysUsageDescription</key>
+  <string>Application uses location to find gyms around you.</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>Application uses location to find gyms around you.</string>
 </dict>
 </plist>
