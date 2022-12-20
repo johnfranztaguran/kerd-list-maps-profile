@@ -79,7 +79,7 @@ const strings = {
     saveEdit: 'Save Edit',
   },
   googleMap: {
-    exploreMaps: 'Explore Maps'
+    exploreMaps: 'Explore Maps (Long Press to Pin Marker)'
   }
 }
 

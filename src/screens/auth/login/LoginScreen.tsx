@@ -24,7 +24,6 @@ const LoginScreen = () => {
   const handleOnLogin = async () => {
     if (inputFields.email !== '' && inputFields.password !== '') {
       const loginUser = await logInWithEmailAndPassword(inputFields.email, inputFields.password)
-      console.log('Login - loginUser', loginUser)
       if (loginUser) {
         setInputError('')
         navigation.navigate(Screens.CompleteRegister)

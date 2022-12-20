@@ -3,11 +3,15 @@ import { COMMON } from '../actions/actionTypes'
 export type CommonReducerState = {
   isLoading: boolean
   errorMsg: string
+  locationPermission: null
+  userLocation: null
 }
 
 export const initialState: CommonReducerState = {
   isLoading: false,
-  errorMsg: ''
+  errorMsg: '',
+  locationPermission: null,
+  userLocation: null
 }
 
 const commonReducer = (
@@ -21,6 +25,10 @@ const commonReducer = (
       return { ...state, isLoading: false, errorMsg: action.payload }
     case COMMON.SET_PURGE:
       return initialState
+    case COMMON.SET_LOCATION_PERMISSION:
+      return { ...state, locationPermission: action.payload }
+    case COMMON.USE_CURRENT_LOCATION:
+      return { ...state, userLocation: action.payload }
     default:
       return state
   }

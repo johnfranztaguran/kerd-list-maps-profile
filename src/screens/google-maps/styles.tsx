@@ -1,5 +1,7 @@
-import { StyleSheet, ViewStyle } from 'react-native'
+import { StyleSheet, ViewStyle, Dimensions, Platform } from 'react-native'
 import { colors } from 'constant'
+
+const { width } = Dimensions.get('window');
 
 type Styles = {
   mainContainer: ViewStyle
@@ -12,6 +14,10 @@ type Styles = {
   avatar: ViewStyle
   containerMap: ViewStyle,
   styleMap: ViewStyle
+  markerListStyle: ViewStyle
+  markerShowButton: ViewStyle
+  markerModalText: ViewStyle
+  emptySpace: ViewStyle
 }
 
 const styles: Styles = StyleSheet.create<Styles>({
@@ -68,6 +74,42 @@ const styles: Styles = StyleSheet.create<Styles>({
     ...StyleSheet.absoluteFillObject,
     backgroundColor: 'transparent',
   },
+  markerListStyle: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    alignContent: 'center',
+    flex: 1,
+    flexDirection: 'column',
+    marginBottom: 10
+  },
+  markerShowButton: {
+    width: 200,
+    height: 44,
+    borderRadius: 22,
+    position: 'absolute',
+    top: 100,
+    left: width / 2 - 100,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'row',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: Platform.OS === 'android' ? 3 : 0
+  },
+  markerModalText: {
+    flex: 3,
+    color: '#000',
+    fontSize: 14,
+    fontWeight: 'normal',
+    fontFamily: 'OpenSans',
+    textAlign: 'center'
+  },
+  emptySpace: {
+    flex: 1
+  }
 })
 
 export default styles

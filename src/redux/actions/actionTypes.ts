@@ -22,7 +22,7 @@ export const AUTH = createActionTypes('AUTH', [
   'SET_USER_AUTH_INFO'
 ])
 
-export const COMMON = createActionTypes('COMMON', ['SET_LOADING', 'SET_ERROR', 'SET_PURGE'])
+export const COMMON = createActionTypes('COMMON', ['SET_LOADING', 'SET_ERROR', 'SET_PURGE', 'SET_LOCATION_PERMISSION', 'USE_CURRENT_LOCATION'])
 
 export const APP_LIST = createActionTypes('APP_LIST', [
   'GET_REQUEST_RECIPES',

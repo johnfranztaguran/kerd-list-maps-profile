@@ -5,6 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { NavigationContainer } from '@react-navigation/native'
 import { PersistGate } from 'redux-persist/lib/integration/react'
 import { Provider as PaperProvider, DefaultTheme } from 'react-native-paper'
+import Geocoder from 'react-native-geocoding'
 import { StyleSheet } from 'react-native';
 import { navigationRef } from 'lib/navigation'
 import { themes, fonts } from 'constant'
@@ -35,6 +36,8 @@ const theme = {
     secondary: themes.colors.secondary
   }
 }
+
+Geocoder.init('AIzaSyBcUE8Et97JrKPSVR_ZPuUWn7cIxOckI9g');
 
 export default function App() {
   return (

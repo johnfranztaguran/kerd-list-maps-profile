@@ -38,10 +38,13 @@ const AuthStack = () => (
       component={Register}
       options={{ headerTitle: 'Register' }}
     />
+    {/* Will separate this screen on the actual app */}
+    {/* to disable back swipe */}
+    {/* for now will leave this as it is */}
     <Stack.Screen
       name={Screens.CompleteRegister}
       component={CompleteRegister}
-      options={{ headerTitle: 'Complete Registration', headerShown: false }}
+      options={{ header: () => null}}
     />
   </Stack.Navigator>
 )
