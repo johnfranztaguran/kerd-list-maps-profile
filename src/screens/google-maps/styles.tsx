@@ -10,6 +10,8 @@ type Styles = {
   panelBox: ViewStyle
   title: ViewStyle,
   avatar: ViewStyle
+  containerMap: ViewStyle,
+  styleMap: ViewStyle
 }
 
 const styles: Styles = StyleSheet.create<Styles>({
@@ -53,7 +55,19 @@ const styles: Styles = StyleSheet.create<Styles>({
     width: 38,
     height: 38,
     padding: 2
-  }
+  },
+  containerMap: {
+    ...StyleSheet.absoluteFillObject,
+    flex: 1,
+    // height: 600,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginTop: 45,
+  },
+  styleMap: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'transparent',
+  },
 })
 
 export default styles

@@ -77,6 +77,9 @@ const strings = {
     address: 'Address',
     editProflie: 'Edit Profile',
     saveEdit: 'Save Edit',
+  },
+  googleMap: {
+    exploreMaps: 'Explore Maps'
   }
 }
 

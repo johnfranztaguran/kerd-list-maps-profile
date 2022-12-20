@@ -4,6 +4,7 @@ import moment from 'moment'
 import { Block, Button, Text, Header, AvatarThumbnail } from 'components'
 import { ButtonMode, ButtonType, Screens } from 'enums'
 import { images, colors, strings } from 'constant'
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import styles from './styles'
 
 type Props = {
@@ -35,21 +36,20 @@ const MapsForm = ({ navigation }: Props) => {
       />
       <Block column style={styles.mainContainer}>
         <Block column style={styles.simpleAppContainer}>
-          <Text h5 text={strings.home.assessment} style={styles.title} />
-          <View style={styles.panelBox}>
-            <Text
-              body
-              text={strings.home.goodDay}
-              align="center"
-              color={colors.grayishBlue}
-            />
-            <Text
-              body
-              text={strings.home.happyCoding}
-              align="center"
-              color={colors.grayishBlue}
-            />
-          </View>
+        <Text h5 text={strings.googleMap.exploreMaps} style={styles.title} />
+          <Block style={styles.containerMap}>
+            <MapView
+              provider={PROVIDER_GOOGLE}
+              style={styles.styleMap}
+              region={{
+                latitude: 37.78825,
+                longitude: -122.4324,
+                latitudeDelta: 0.015,
+                longitudeDelta: 0.0121,
+              }}
+            >
+            </MapView>
+          </Block>
         </Block>
       </Block>
     </Block>
