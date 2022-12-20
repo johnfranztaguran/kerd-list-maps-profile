@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { useDispatch } from 'react-redux';
+import { Screens } from 'enums'
 import { logInWithEmailAndPassword } from '../../../../config/firebase'
 import LoginForm from './LoginForm'
 
@@ -24,12 +25,12 @@ const LoginScreen = () => {
     if (inputFields.email !== '' && inputFields.password !== '') {
       const loginUser = await logInWithEmailAndPassword(inputFields.email, inputFields.password)
       console.log('Login - loginUser', loginUser)
-      // if (regUser) {
-      //   setInputError('')
-      //   navigation.navigate(Screens.CompleteRegister)
-      // } else {
-      //   setInputError(`${regUser}`)
-      // }
+      if (loginUser) {
+        setInputError('')
+        navigation.navigate(Screens.CompleteRegister)
+      } else {
+        setInputError(`Something went wrong!`)
+      }
     } else {
       setInputError('Please complete the details!')
     }
@@ -41,6 +42,7 @@ const LoginScreen = () => {
       navigation={navigation}
       inputFields={inputFields}
       handleOnChange={handleOnChange}
+      inputError={inputError}
     />
   )
 }
