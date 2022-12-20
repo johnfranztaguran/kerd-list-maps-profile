@@ -61,7 +61,7 @@ const MapsForm = ({
   showModalButton
 }: Props) => {
 
-  const renderSearchButton = () => {
+  const renderListButton = () => {
     return (
       <TouchableOpacity
         activeOpacity={0.85}
@@ -124,7 +124,7 @@ const MapsForm = ({
             >
               {renderMarkers(mapMarkers)}
             </MapView>
-            {mapMarkers.length < 1 ? null : showModalButton ? renderSearchButton() : null}
+            {mapMarkers.length < 1 ? null : showModalButton ? renderListButton() : null}
             <MarkerModal
               visible={isVisible}
               markers={mapMarkers}
